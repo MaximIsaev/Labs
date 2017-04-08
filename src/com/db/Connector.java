@@ -12,7 +12,7 @@ import java.sql.SQLException;
 public class Connector {
 	public static Connection getConnection() throws SQLException {
 		MysqlDataSource dataSource = new MysqlDataSource();
-		dataSource.setDatabaseName("school");
+		dataSource.setDatabaseName("lab_5_2016");
 		dataSource.setUser("empathic");
 		dataSource.setPassword("open");
 		return dataSource.getConnection();
